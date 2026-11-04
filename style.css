@@ -1,0 +1,41 @@
+.calculator {
+  width: 260px;
+  padding: 15px;
+  background: #eeeeee;
+}
+
+#display01 {
+  width: 240px;
+  height: 45px;
+  background: white;
+  margin-bottom: 10px;
+  text-align: right;
+  font-size: 25px;
+  overflow: hidden;
+}
+
+input[type="button"] {
+  width: 58px;
+  height: 40px;
+  margin: 1px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#display02 {
+  width: 240px;
+  height: 45px;
+  background: white;
+  margin-bottom: 10px;
+  text-align: right;
+  font-size: 25px;
+  overflow: hidden;
+}
+
+/* input[type="button"] {
+  width: 58px;
+  height: 40px;
+  margin: 1px;
+  font-size: 16px;
+  cursor: pointer;
+} */

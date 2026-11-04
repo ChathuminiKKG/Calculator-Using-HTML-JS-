@@ -1,11 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-</head>
-<body>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- <input type="text" id="txtSample01" placeholder="num 01" /> -->
+    <!-- <input type="text" id="txtSample02" placeholder="num 02" /> -->
+
+     <!-- <div id="lblSection">0</div> -->
+
+     <input type="text" name="display01" id="display01" readonly>
+     <!-- <input type="text" name="display02" id="display02"> -->
+     <br>
+
+     <input type="button" value="%" onclick="clickMe(this.value)" />
+     <input type="button" value="CE" onclick="clickMe(this.value)" />
+     <input type="button" value="C" onclick="clickMe(this.value)" />
+     <input type="button" value="Erase" onclick="clickMe(this.value)" />
+     <br>
+     
+     <input type="button" value="7" onclick="number('7')" />
+     <input type="button" value="8" onclick="number('8')" />
+     <input type="button" value="9" onclick="cnumber('9')" />
+     <input type="button" value="*" onclick="clickMe(this.value)" />
+     <br>
+     <input type="button" value="4" onclick="number('4')" />
+     <input type="button" value="5" onclick="number('5')" />
+     <input type="button" value="6" onclick="number('6')" />
+     <input type="button" value="-" onclick="clickMe(this.value)" />
+     <br>
+     <input type="button" value="1" onclick="number('1')" />
+     <input type="button" value="2" onclick="number('2')" />
+     <input type="button" value="3" onclick="number('3')" />
+     <input type="button" value="+" onclick="clickMe(this.value)" />
+     <br>
+     <input type="button" value="." onclick="clickMe(this.value)" />
+     <input type="button" value="0" onclick="number('0')" />
+     <input type="button" value="=" onclick="clickMe(this.value)" />
+     <input type="button" value="/" onclick="clickMe(this.value)" />
     
-</body>
+    
+
+    <script src="app.js"></script>
+  </body>
 </html>
